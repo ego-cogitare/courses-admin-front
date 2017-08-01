@@ -1,0 +1,51 @@
+.form-group .toolbox .contents > .data .squares-section {
+  margin-left: 13px;
+}
+
+.form-group .toolbox .contents > .data .square-row {
+  display: table;
+  width: 100%;
+}
+
+.form-group .toolbox .contents > .data .square-row .square-column {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.form-group .toolbox .contents > .data .square-row .square {
+  width: 214px;
+  height: 214px;
+  background: url('../../../../img/courses/widgets/types/toolbox/square.png') no-repeat;
+  display: inline-block;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.form-group .toolbox .contents > .data .square-row .square .icon {
+  width: 75px;
+  height: 55px;
+  background-repeat: no-repeat;
+  margin: 24px auto 0;
+  background-size: cover;
+  background-position: center center;
+}
+
+.square-like-1 {
+  background-image: url('../../../../img/courses/widgets/types/toolbox/square-like-1.png');
+}
+
+.square-like-2 {
+  background-image: url('../../../../img/courses/widgets/types/toolbox/square-like-2.png');
+}
+
+.square-like-3 {
+  background-image: url('../../../../img/courses/widgets/types/toolbox/square-like-3.png');
+}
+
+.form-group .toolbox .contents > .data .square-row .square .descr {
+  width: 90%;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  margin: 20px auto 0;
+}

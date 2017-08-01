@@ -1,0 +1,15 @@
+.manage-hexagon .icon-wrapper {
+  float: left;
+  padding: 4px;
+  border: 2px solid transparent;
+}
+
+.manage-hexagon .icon-wrapper.active {
+  border: 2px solid #c00;
+}
+
+.manage-hexagon .icon-wrapper .icon {
+  width: 64px;
+  height: 68px;
+  cursor: pointer;
+}

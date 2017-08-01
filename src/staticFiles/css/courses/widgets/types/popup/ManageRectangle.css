@@ -1,0 +1,15 @@
+.manage-rectangle .icon-wrapper {
+  float: left;
+  padding: 4px;
+  border: 2px solid transparent;
+}
+
+.manage-rectangle .icon-wrapper.active {
+  border: 2px solid #c00;
+}
+
+.manage-rectangle .icon-wrapper .icon {
+  width: 64px;
+  height: 52px;
+  cursor: pointer;
+}

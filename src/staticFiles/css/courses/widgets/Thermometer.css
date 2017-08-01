@@ -1,0 +1,124 @@
+.tutor #thermometer .content {
+  width: 908px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.tutor #thermometer .content SECTION > .indicator {
+  width: 267px;
+  height: 321px;
+  background: url('../../../img/courses/widgets/indicator.png') no-repeat;
+  margin-top: 77px;
+  margin-left: 30px;
+  display: inline-block;
+}
+
+.tutor #thermometer .content SECTION > .indicator .progress-wrapper {
+  width: 18px;
+  height: 180px;
+  margin-left: 60px;
+  margin-top: 28px;
+  position: relative;
+}
+
+.tutor #thermometer .content SECTION > .indicator-descr {
+  font-size: 35px;
+  width: 560px;
+  padding-top: 74px;
+  line-height: 40px;
+  padding-left: 80px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.tutor #thermometer .content SECTION > .indicator .progress-wrapper .indicator-progress {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: url('../../../img/courses/widgets/indicator-progress.png') repeat-y;
+  min-height: 10% !important;
+}
+
+.tutor #thermometer .content SECTION > .title {
+  font-size: 42px;
+  padding-top: 50px;
+  padding-left: 68px;
+  font-weight: 800;
+}
+
+.tutor #thermometer .content SECTION > .descr {
+  padding-top: 15px;
+  padding-left: 68px;
+  max-width: 670px;
+  line-height: 25px;
+  font-size: 38px;
+  padding-bottom: 36px;
+}
+
+.tutor #thermometer .content SECTION > .row:first-child {
+  padding-top: 50px;
+}
+
+.tutor #thermometer .content SECTION > .row {
+  padding-bottom: 20px;
+  padding-left: 68px;
+}
+
+.tutor #thermometer .content SECTION > .row > .number {
+  padding-top: 4px;
+  margin-right: 22px;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  width: 44px;
+  height: 53px;
+  color: #cce4ed;
+  font-weight: normal;
+  background: url('../../../img/courses/widgets/number.png') no-repeat center center;
+  font-size: 30px;
+}
+
+.tutor #thermometer .content SECTION > .row > .info-block {
+  display: inline-block;
+}
+
+.tutor #thermometer .content SECTION > .row > .info-block > .title {
+  font-size: 24px;
+  font-weight: 900;
+  padding-top: 16px;
+}
+
+.tutor #thermometer .content SECTION .question-block {
+  width: 600px;
+  margin: 0 auto 50px;
+  margin-top: 50px;
+  line-height: 28px;
+  font-size: 22px;
+  background: url('../../../img/courses/widgets/question-mark.png') no-repeat left top;
+  padding-left: 70px;
+}
+
+.tutor #thermometer .content SECTION .step-page {
+  padding-bottom: 20px;
+  color: #565b73;
+}
+
+.tutor #thermometer .btn {
+  display: inline-block;
+  position: relative;
+  background: none;
+  border-radius: 6px;
+  border-width: 2px;
+  border-style: solid;
+  padding: 11px 14px 9px;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 19px;
+  outline: none;
+  color: #2ee69f;
+  margin-bottom: 70px;
+}

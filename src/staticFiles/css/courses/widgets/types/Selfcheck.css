@@ -1,0 +1,143 @@
+.form-group .self-check .contents > .data {
+  width: 550px;
+}
+
+.form-group .self-check .contents > .data .tags-wrapper .controls > DIV {
+  cursor: pointer;
+}
+
+.form-group .self-check .contents > .data .tags-wrapper .tags-row {
+  width: 550px;
+  margin: 0;
+}
+
+.form-group .self-check .contents > .data .tags-wrapper .tags-row .tags {
+  padding: 0;
+}
+
+.form-group .self-check .contents > .data .tags-wrapper .tags-row .tags > LI {
+  display: inline-block;
+  margin: 5px 10px;
+}
+
+.form-group .self-check .contents > .data .tags-wrapper .tags-row .tags .tag {
+  border-radius: 16px;
+  padding: 9px 18px;
+  background-color: #ffffff;
+  display: block;
+  color: #404040;
+  font-size: 18px;
+  text-decoration: none;
+  max-width: 220px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.form-group .self-check .contents > .data .tags-wrapper .tags-row:after {
+  display: block;
+  width: 528px;
+  height: 1px;
+  content: '';
+  background: url('../../../../img/courses/widgets/types/selfcheck/separator.png') no-repeat 12px 0;
+  margin: 21px 0;
+}
+
+.form-group .self-check .contents > .data .tags-wrapper > DIV:last-child .tags-row:after {
+  display: none;
+}
+
+.form-group .self-check .contents > .data .tags-wrapper .tags-row .tags .tag:hover,
+.form-group .self-check .contents > .data .tags-wrapper .tags-row .tags .tag.checked {
+  background-color: #fff299;
+}
+
+.form-group .self-check .contents > .data .tags-wrapper .tags-row .tags LI.icon > A {
+  padding-left: 22px;
+  background-repeat: no-repeat;
+  background-position: 5px center;
+  background-size: 16px;
+}
+
+.form-group .self-check .contents > .data .tags-wrapper .tags-row .tags LI.icon.self-check-lamp > A {
+  background-image: url('../../../../img/courses/widgets/types/selfcheck/lamp.png');
+}
+
+.form-group .self-check .contents > .data .tags-wrapper .tags-row .tags LI.icon.self-check-darts > A {
+  background-image: url('../../../../img/courses/widgets/types/selfcheck/darts.png');
+}
+
+.form-group .self-check .contents > .data .tags-wrapper .tags-row .tags LI.icon.self-check-chart > A {
+  background-image: url('../../../../img/courses/widgets/types/selfcheck/chart.png');
+}
+
+.form-group .self-check .contents > .data .tags-wrapper .tags-row .tags LI.icon.self-check-human > A {
+  background-image: url('../../../../img/courses/widgets/types/selfcheck/human.png');
+}
+
+
+/*.form-group .self-check .contents > .data .icons-wrapper {
+  width: 496px;
+  padding: 20px;
+  margin-top: 30px;
+  background-color: #e0e0e0;
+}
+
+.form-group .self-check .contents > .data .icons-wrapper .row {
+  margin-bottom: 20px;
+}
+
+.form-group .self-check .contents > .data .icons-wrapper .row:last-child {
+  margin-bottom: 0;
+}
+
+.form-group .self-check .contents > .data .icons-wrapper .row .title {
+  font-size: 20px;
+  color: #404040;
+}
+
+.form-group .self-check .contents > .data .icons-wrapper .row .icons {
+  width: 319px;
+  height: 40px;
+  position: relative;
+}
+
+.form-group .self-check .contents > .data .icons-wrapper .row .icons > DIV {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+.form-group .self-check .contents > .data .icons-wrapper .row .icons.lamp .colour {
+  background-image: url('../img/self-check-lamps-colour.png');
+}
+
+.form-group .self-check .contents > .data .icons-wrapper .row .icons.lamp .grayscale {
+  background-image: url('../img/self-check-lamps-grayscale.png');
+}
+
+.form-group .self-check .contents > .data .icons-wrapper .row .icons.darts .colour {
+  background-image: url('../img/self-check-darts-colour.png');
+}
+
+.form-group .self-check .contents > .data .icons-wrapper .row .icons.darts .grayscale {
+  background-image: url('../img/self-check-darts-grayscale.png');
+}
+
+.form-group .self-check .contents > .data .icons-wrapper .row .icons.chart .colour {
+  background-image: url('../img/self-check-chart-colour.png');
+}
+
+.form-group .self-check .contents > .data .icons-wrapper .row .icons.chart .grayscale {
+  background-image: url('../img/self-check-chart-grayscale.png');
+}
+
+.form-group .self-check .contents > .data .icons-wrapper .row .icons.human .colour {
+  background-image: url('../img/self-check-human-colour.png');
+}
+
+.form-group .self-check .contents > .data .icons-wrapper .row .icons.human .grayscale {
+  background-image: url('../img/self-check-human-grayscale.png');
+}*/

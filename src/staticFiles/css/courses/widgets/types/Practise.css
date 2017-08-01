@@ -1,0 +1,55 @@
+
+.form-group .practise .contents > .data .hexagon-column {
+  width: 180px;
+  min-height: 1px;
+}
+
+.form-group .practise .contents > .data .hexagon-column .fa-plus,
+.form-group .practise .contents > .data .hexagon-column .fa-minus {
+  cursor: pointer;
+}
+
+.form-group .practise .contents > .data .hexagon-column .fa-plus {
+  margin-left: -10px;
+}
+
+.form-group .practise .contents > .data .hexagon-column .hexagon {
+  width: 170px;
+  height: 193px;
+  background: url('../../../../img/courses/widgets/types/practise/hexagon.png') no-repeat;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.form-group .practise .contents > .data .hexagon-column .hexagon.single-element {
+  margin-top: 104px;
+}
+
+.form-group .practise .contents > .data .hexagon-column .hexagon .icon {
+  width: 68px;
+  height: 68px;
+  margin: 0px auto;
+  padding-top: 24px;
+  box-sizing: content-box;
+}
+
+.hexagon-blue-cube {
+  background: url('../../../../img/courses/widgets/types/practise/hexagon-blue-cube.png') no-repeat center bottom;
+}
+
+.hexagon-grey-arrow {
+  background: url('../../../../img/courses/widgets/types/practise/hexagon-grey-arrows.png') no-repeat center bottom;
+}
+
+.hexagon-red-arrow {
+  background: url('../../../../img/courses/widgets/types/practise/hexagon-red-arrows.png') no-repeat center bottom;
+}
+
+.form-group .practise .contents > .data .hexagon-column .hexagon .title {
+  width: 130px;
+  margin: 16px auto;
+  text-align: center;
+  font-size: 19px;
+  font-weight: bold;
+  line-height: 20px;
+}

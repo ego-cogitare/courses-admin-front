@@ -1,0 +1,33 @@
+.manage-tag .icon-wrapper {
+  float: left;
+  padding: 4px;
+  border: 2px solid transparent;
+}
+
+.manage-tag .icon-wrapper.active {
+  border: 2px solid #c00;
+}
+
+.manage-tag .icon-wrapper .icon {
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  cursor: pointer;
+}
+
+.manage-tag .icon-wrapper .lamp {
+  background-image: url('../../../../../img/courses/widgets/types/selfcheck/lamp.png');
+}
+
+.manage-tag .icon-wrapper .darts {
+  background-image: url('../../../../../img/courses/widgets/types/selfcheck/darts.png');
+}
+
+.manage-tag .icon-wrapper .chart {
+  background-image: url('../../../../../img/courses/widgets/types/selfcheck/chart.png');
+}
+
+.manage-tag .icon-wrapper .human {
+  background-image: url('../../../../../img/courses/widgets/types/selfcheck/human.png');
+}

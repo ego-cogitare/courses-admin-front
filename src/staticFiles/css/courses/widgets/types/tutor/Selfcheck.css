@@ -1,0 +1,124 @@
+.tutor .widget .self-check-section > DIV > .title {
+  color: #404040;
+  font-size: 25px;
+  margin-top: 40px;
+  display: inline-block;
+  border-bottom: 4px solid #2ee69f;
+  padding-bottom: 8px;
+}
+
+.tutor .widget .self-check-section {
+  padding-top: 20px;
+  background-color: #e0e0e0;
+}
+
+.tutor .widget .self-check-section .tags-wrapper .row .tags {
+  padding: 0;
+  margin: 0;
+}
+
+.tutor .widget .self-check-section .tags-wrapper .row .tags > LI {
+  display: inline-block;
+  margin: 5px;
+}
+
+.tutor .widget .self-check-section .tags-wrapper .row .tags > LI:first-child {
+  margin-left: 0;
+}
+
+.tutor .widget .self-check-section .tags-wrapper .row .tags .tag {
+  border-radius: 16px;
+  padding: 13px 18px;
+  background-color: #ffffff;
+  display: block;
+  color: #404040;
+  font-size: 18px;
+  text-decoration: none;
+  max-width: 220px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tutor .widget .self-check-section .tags-wrapper .row:after {
+  display: block;
+  width: 528px;
+  margin: 4px auto 4px;
+  height: 1px;
+  content: '';
+  background: url('../../../../../img/courses/widgets/types/selfcheck/self-check-separator.png') no-repeat center 0;
+}
+
+.tutor .widget .self-check-section .tags-wrapper .row:last-child:after {
+  display: none;
+}
+
+.tutor .widget .self-check-section .tags-wrapper .row .tags .tag.checked {
+  background-color: #fff299;
+}
+
+.tutor .widget .self-check-section .icons-wrapper {
+  width: 496px;
+  padding: 20px;
+  background-color: #e0e0e0;
+  margin: 30px auto 10px;
+}
+
+.tutor .widget .self-check-section .icons-wrapper .row {
+  margin-bottom: 20px;
+}
+
+.tutor .widget .self-check-section .icons-wrapper .row:last-child {
+  margin-bottom: 0;
+}
+
+.tutor .widget .self-check-section .icons-wrapper .row .title {
+  font-size: 20px;
+  color: #404040;
+}
+
+.tutor .widget .self-check-section .icons-wrapper .row .icons {
+  width: 319px;
+  height: 40px;
+  position: relative;
+}
+
+.tutor .widget .self-check-section .icons-wrapper .row .icons > DIV {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+.tutor .widget .self-check-section .icons-wrapper .row .icons.lamp .colour {
+  background-image: url('../../../../../img/courses/widgets/types/selfcheck/self-check-lamps-colour.png');
+}
+
+.tutor .widget .self-check-section .icons-wrapper .row .icons.lamp .grayscale {
+  background-image: url('../../../../../img/courses/widgets/types/selfcheck/self-check-lamps-grayscale.png');
+}
+
+.tutor .widget .self-check-section .icons-wrapper .row .icons.darts .colour {
+  background-image: url('../../../../../img/courses/widgets/types/selfcheck/self-check-darts-colour.png');
+}
+
+.tutor .widget .self-check-section .icons-wrapper .row .icons.darts .grayscale {
+  background-image: url('../../../../../img/courses/widgets/types/selfcheck/self-check-darts-grayscale.png');
+}
+
+.tutor .widget .self-check-section .icons-wrapper .row .icons.chart .colour {
+  background-image: url('../../../../../img/courses/widgets/types/selfcheck/self-check-chart-colour.png');
+}
+
+.tutor .widget .self-check-section .icons-wrapper .row .icons.chart .grayscale {
+  background-image: url('../../../../../img/courses/widgets/types/selfcheck/self-check-chart-grayscale.png');
+}
+
+.tutor .widget .self-check-section .icons-wrapper .row .icons.human .colour {
+  background-image: url('../../../../../img/courses/widgets/types/selfcheck/self-check-human-colour.png');
+}
+
+.tutor .widget .self-check-section .icons-wrapper .row .icons.human .grayscale {
+  background-image: url('../../../../../img/courses/widgets/types/selfcheck/self-check-human-grayscale.png');
+}
